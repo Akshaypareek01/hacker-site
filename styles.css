@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-color: #24252A;
+    margin:10px 10%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li,a{
+    font-family: "Syne Mono";
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(214, 47, 50);
+    
+}
+.nav__links{
+    list-style: none;
+    
+    
+}
+.nav__links li{
+    padding:10px;
+    display: inline-block;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color:  rgb(189, 0, 3);
+    font-size: larger;
+}
+
+.logo{
+    font-family: "Syne Mono";
+    color: rgb(214, 47, 50);
+    cursor: pointer;
+    margin-right: auto ;
+
+
+}
+.logo:hover{
+    color: rgb(189, 0, 3);
+    transition: all 0.3s ease 0s;
+
+}
+button{
+    background-color: rgb(214, 47, 50);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding:9px 25px;
+    margin:20px;
+    border-radius: 50px;
+    border: none;
+
+
+}
+button:hover{
+    background-color:rgb(189, 0, 3);
+}
+.btn{
+    font-family:"Syne Mono";
+}
+.contant{
+    margin-top: 50px;
+    text-align: center;
+    display: inline;
+    color:white;
+    cursor: pointer;
+    line-height:3;
+}
+p:hover{
+    font-family: "Syne Mono";
+    background-color: black;
+}
+.last_section{
+    text-align: center;
+    color:aliceblue;
+    font-size: small;
+    padding-top: 20px;
+}
